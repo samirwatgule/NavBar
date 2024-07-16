@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <header class="head">
+        <div class="navbar" id="navbar">
+            <a href="index.html">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#" target="_blank" class="reg">Register</a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <h2 style="color: #fff; font-size: 30px; padding-bottom: 10px">Login</h2>
+            <form action="#" method="post">
+                <input type="text" name="username" placeholder="Username" style="color: #fff" required />
+                <div style="position: relative">
+                    <input type="password" id="password" name="password" placeholder="Password" style="color: #fff" required />
+                    <i class="fas fa-eye password-toggle" onclick="togglePasswordVisibility()"></i>
+                </div>
+                <input type="submit" value="Login" />
+            </form>
+            <br />
+            <hr />
+            <a href="#" class="forgot-password">Forgot Password?</a>
+            <div class="message"></div>
+        </div>
+    </header>
+<script src="script.js"></script>
+</body>
+</html>
